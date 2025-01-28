@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    box-sizing: border-box;
+}
+.head{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2vh 5vh;
+}
+.port{
+    font-family: Astro,monospace;
+    color: white;
+    font-size: 30px;
+}
+header div ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.ic{
+    margin-right: 0.4rem;
+}
+.icon{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+header a:link,header a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header a:hover{
+    background: linear-gradient(to left, rgb(255, 97, 192), rgb(114, 137, 254));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.vid{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    z-index: 1;
+    
+}
+
+.min{
+    position: relative;
+    z-index: 2;
+}
+
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:25vmin 10vmin;
+    
+}
+
+.text h1{
+    font-size: 2rem;
+    font-family: astro,monospace;
+}
+
+.text h1 b{
+    color: blueviolet;
+}
+
+.text p{
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin: 1vmin;
+}
+
+.cont{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vmin;
+    margin: 10vmin;
+}
+
+.box{
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.322);
+    box-shadow: 0px 5px 13px 9px #8a2be2;
+    height: auto;
+    padding: 2vmin;
+    border-radius: 10px;
+}
+
+.photo{
+    width: 100%;
+    
+}
+.textx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    word-spacing: 0.2rem;
+
+}
+.textx h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1vmin;
+}
+
+.textx p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1vmin;
+    
+}
+
+a:link,a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.but{
+    background-color: #8a2be2;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    margin: 15px;
+    border: solid 1px white;
+}
+
